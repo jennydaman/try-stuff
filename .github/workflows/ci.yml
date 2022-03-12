@@ -1,0 +1,10 @@
+on:
+  push:
+    branches: [ master ]
+  release:
+    type: [ published ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo hello there
