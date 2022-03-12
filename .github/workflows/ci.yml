@@ -2,7 +2,7 @@ on:
   push:
     branches: [ master ]
   release:
-    type: [ published ]
+    types: [ published ]
 jobs:
   build:
     runs-on: ubuntu-latest
